@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7416F97E558BCB22B03912C1 /* Pods_AlexaSampleiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD723E694BFC034479FC6B2 /* Pods_AlexaSampleiOS.framework */; };
+		86DA6728212BB8B1008578F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DA6727212BB8B1008578F7 /* AppDelegate.swift */; };
+		86DA672A212BB8B1008578F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DA6729212BB8B1008578F7 /* ViewController.swift */; };
+		86DA672D212BB8B1008578F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86DA672B212BB8B1008578F7 /* Main.storyboard */; };
+		86DA672F212BB8B3008578F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86DA672E212BB8B3008578F7 /* Assets.xcassets */; };
+		86DA6732212BB8B3008578F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86DA6730212BB8B3008578F7 /* LaunchScreen.storyboard */; };
+		86DA673A212BBAC5008578F7 /* LoginWithAmazon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DA6739212BBAC5008578F7 /* LoginWithAmazon.framework */; };
+		86DA673C212BBB0C008578F7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DA673B212BBB0C008578F7 /* Security.framework */; };
+		86DA673E212BBB1A008578F7 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DA673D212BBB1A008578F7 /* SafariServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04C309F5CDA29C8F4EE2AC5F /* Pods-AlexaSampleiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlexaSampleiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlexaSampleiOS/Pods-AlexaSampleiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		86DA6724212BB8B1008578F7 /* AlexaSampleiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlexaSampleiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86DA6727212BB8B1008578F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86DA6729212BB8B1008578F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86DA672C212BB8B1008578F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86DA672E212BB8B3008578F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86DA6731212BB8B3008578F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86DA6733212BB8B3008578F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86DA6739212BBAC5008578F7 /* LoginWithAmazon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LoginWithAmazon.framework; sourceTree = "<group>"; };
+		86DA673B212BBB0C008578F7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		86DA673D212BBB1A008578F7 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		86DA673F212BD28B008578F7 /* AlexaSampleiOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlexaSampleiOS.entitlements; sourceTree = "<group>"; };
+		9BD723E694BFC034479FC6B2 /* Pods_AlexaSampleiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlexaSampleiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A06F1E43BE751E328D4BF865 /* Pods-AlexaSampleiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlexaSampleiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlexaSampleiOS/Pods-AlexaSampleiOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86DA6721212BB8B1008578F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DA673E212BBB1A008578F7 /* SafariServices.framework in Frameworks */,
+				86DA673C212BBB0C008578F7 /* Security.framework in Frameworks */,
+				86DA673A212BBAC5008578F7 /* LoginWithAmazon.framework in Frameworks */,
+				7416F97E558BCB22B03912C1 /* Pods_AlexaSampleiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E2BAF40FD2830B108541A42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86DA673D212BBB1A008578F7 /* SafariServices.framework */,
+				86DA673B212BBB0C008578F7 /* Security.framework */,
+				86DA6739212BBAC5008578F7 /* LoginWithAmazon.framework */,
+				9BD723E694BFC034479FC6B2 /* Pods_AlexaSampleiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C9CBBFF45B434FED29E87F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04C309F5CDA29C8F4EE2AC5F /* Pods-AlexaSampleiOS.debug.xcconfig */,
+				A06F1E43BE751E328D4BF865 /* Pods-AlexaSampleiOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86DA671B212BB8B1008578F7 = {
+			isa = PBXGroup;
+			children = (
+				86DA6726212BB8B1008578F7 /* AlexaSampleiOS */,
+				86DA6725212BB8B1008578F7 /* Products */,
+				5C9CBBFF45B434FED29E87F4 /* Pods */,
+				3E2BAF40FD2830B108541A42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86DA6725212BB8B1008578F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86DA6724212BB8B1008578F7 /* AlexaSampleiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86DA6726212BB8B1008578F7 /* AlexaSampleiOS */ = {
+			isa = PBXGroup;
+			children = (
+				86DA673F212BD28B008578F7 /* AlexaSampleiOS.entitlements */,
+				86DA6727212BB8B1008578F7 /* AppDelegate.swift */,
+				86DA6729212BB8B1008578F7 /* ViewController.swift */,
+				86DA672B212BB8B1008578F7 /* Main.storyboard */,
+				86DA672E212BB8B3008578F7 /* Assets.xcassets */,
+				86DA6730212BB8B3008578F7 /* LaunchScreen.storyboard */,
+				86DA6733212BB8B3008578F7 /* Info.plist */,
+			);
+			path = AlexaSampleiOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86DA6723212BB8B1008578F7 /* AlexaSampleiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86DA6736212BB8B3008578F7 /* Build configuration list for PBXNativeTarget "AlexaSampleiOS" */;
+			buildPhases = (
+				D6E020D12A1F56CEB79C5D37 /* [CP] Check Pods Manifest.lock */,
+				86DA6720212BB8B1008578F7 /* Sources */,
+				86DA6721212BB8B1008578F7 /* Frameworks */,
+				86DA6722212BB8B1008578F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlexaSampleiOS;
+			productName = AlexaSampleiOS;
+			productReference = 86DA6724212BB8B1008578F7 /* AlexaSampleiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86DA671C212BB8B1008578F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Livin' Ideas";
+				TargetAttributes = {
+					86DA6723212BB8B1008578F7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 86DA671F212BB8B1008578F7 /* Build configuration list for PBXProject "AlexaSampleiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86DA671B212BB8B1008578F7;
+			productRefGroup = 86DA6725212BB8B1008578F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86DA6723212BB8B1008578F7 /* AlexaSampleiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86DA6722212BB8B1008578F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DA6732212BB8B3008578F7 /* LaunchScreen.storyboard in Resources */,
+				86DA672F212BB8B3008578F7 /* Assets.xcassets in Resources */,
+				86DA672D212BB8B1008578F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D6E020D12A1F56CEB79C5D37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlexaSampleiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86DA6720212BB8B1008578F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DA672A212BB8B1008578F7 /* ViewController.swift in Sources */,
+				86DA6728212BB8B1008578F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86DA672B212BB8B1008578F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86DA672C212BB8B1008578F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86DA6730212BB8B3008578F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86DA6731212BB8B3008578F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86DA6734212BB8B3008578F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86DA6735212BB8B3008578F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86DA6737212BB8B3008578F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C309F5CDA29C8F4EE2AC5F /* Pods-AlexaSampleiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlexaSampleiOS/AlexaSampleiOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ENJ8MS4EMS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AlexaSampleiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.livinideas.AlexaSampleiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86DA6738212BB8B3008578F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06F1E43BE751E328D4BF865 /* Pods-AlexaSampleiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlexaSampleiOS/AlexaSampleiOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ENJ8MS4EMS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AlexaSampleiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.livinideas.AlexaSampleiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86DA671F212BB8B1008578F7 /* Build configuration list for PBXProject "AlexaSampleiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86DA6734212BB8B3008578F7 /* Debug */,
+				86DA6735212BB8B3008578F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86DA6736212BB8B3008578F7 /* Build configuration list for PBXNativeTarget "AlexaSampleiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86DA6737212BB8B3008578F7 /* Debug */,
+				86DA6738212BB8B3008578F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86DA671C212BB8B1008578F7 /* Project object */;
+}
